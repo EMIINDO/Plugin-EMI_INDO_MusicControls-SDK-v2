@@ -1,0 +1,211 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for MusicControls Plugin",
+  "text": {
+    "plugins": {
+      "emi_indo_musiccontrols": {
+        "name": "MusicControls",
+        "description": "Music controls for Cordova applications. Display a 'media' notification with play/pause, previous, next buttons, allowing the user to control the play. Handle also headset event (plug, unplug, headset button).",
+        "help-url": "https://www.construct.net/en/make-games/addons/515/music-controls/documentation",
+        "properties": {
+          "Create-the-media-controls": {
+            "name": "Create the media controls :",
+            "desc": "property_desc"
+          },
+          "Default": {
+            "name": "Default :",
+            "desc": "property_desc"
+          },
+          "track": {
+            "name": "track :",
+            "desc": "property_desc"
+          },
+          "artist": {
+            "name": "artist :",
+            "desc": "property_desc"
+          },
+          "album": {
+            "name": "album :",
+            "desc": "property_desc"
+          },
+          "cover": {
+            "name": "cover :",
+            "desc": "property_desc"
+          },
+          "isPlaying": {
+            "name": "is Playing :",
+            "desc": "property_desc"
+          },
+          "dismissable": {
+            "name": "dismissable :",
+            "desc": "property_desc"
+          },
+          "hasPrev": {
+            "name": "has Prev :",
+            "desc": "property_desc"
+          },
+          "hasNext": {
+            "name": "has Next :",
+            "desc": "property_desc"
+          },
+          "hasClose": {
+            "name": "has Close :",
+            "desc": "property_desc"
+          },
+          "iOS-only-optional": {
+            "name": "iOS only optional :",
+            "desc": "property_desc"
+          },
+          "duration": {
+            "name": "duration :",
+            "desc": "property_desc"
+          },
+          "elapsed": {
+            "name": "elapsed :",
+            "desc": "property_desc"
+          },
+          "hasSkipForward": {
+            "name": "has Skip Forward :",
+            "desc": "property_desc"
+          },
+          "hasSkipBackward": {
+            "name": "has Skip Backward :",
+            "desc": "property_desc"
+          },
+          "skipForwardInterval": {
+            "name": "skip Forward Interval :",
+            "desc": "property_desc"
+          },
+          "skipBackwardInterval": {
+            "name": "skip Backward Interval :",
+            "desc": "property_desc"
+          },
+          "hasScrubbing": {
+            "name": "has Scrubbing :",
+            "desc": "property_desc"
+          },
+          "Android-only-optional": {
+            "name": "ANDROID only optional :",
+            "desc": "property_desc"
+          },
+          "ticker": {
+            "name": "ticker :",
+            "desc": "property_desc"
+          },
+          "playIcon": {
+            "name": "play Icon :",
+            "desc": "property_desc"
+          },
+          "pauseIcon": {
+            "name": "pause Icon :",
+            "desc": "property_desc"
+          },
+          "prevIco": {
+            "name": "prev Ico :",
+            "desc": "property_desc"
+          },
+          "nextIcon": {
+            "name": "next Icon :",
+            "desc": "property_desc"
+          },
+          "closeIcon": {
+            "name": "close Icon :",
+            "desc": "property_desc"
+          },
+          "notificationIcon": {
+            "name": "notification Icon :",
+            "desc": "property_desc"
+          }
+        },
+        "aceCategories": {
+          "custom": "Create the media controls",
+          "subscribe": "subscribe",
+          "ios only": "External controls (iOS only)",
+          "android only": "Headset events (Android only)",
+          "response": "response"
+        },
+        "conditions": {
+          "next": {
+            "list-name": "Next",
+            "display-text": "next",
+            "description": "case 'music-controls-next':"
+          },
+          "previous": {
+            "list-name": "Previous",
+            "display-text": "previous",
+            "description": "case 'music-controls-previous':"
+          },
+          "pause": {
+            "list-name": "Pause",
+            "display-text": "pause",
+            "description": "case 'music-controls-pause':"
+          },
+          "play": {
+            "list-name": "Play",
+            "display-text": "play",
+            "description": "case 'music-controls-play':"
+          },
+          "destroy": {
+            "list-name": "Destroy",
+            "display-text": "destroy",
+            "description": "case 'music-controls-destroy':"
+          },
+          "ipause": {
+            "list-name": "IOS pause",
+            "display-text": "IOS pause",
+            "description": "case 'music-controls-toggle-play-pause' :"
+          },
+          "seek_to": {
+            "list-name": "IOS Seek To",
+            "display-text": "IOS Seek To",
+            "description": "case 'music-controls-seek-to':"
+          },
+          "media_button": {
+            "list-name": "Media Button",
+            "display-text": "media button",
+            "description": "case 'music-controls-media-button' :"
+          },
+          "headse_unplugged": {
+            "list-name": "Headse Unplugged",
+            "display-text": "headse unplugged",
+            "description": "case 'music-controls-headset-unplugged':"
+          },
+          "headset_plugged": {
+            "list-name": "Headset Plugged",
+            "display-text": "headset plugged",
+            "description": "case 'music-controls-headset-plugged':"
+          }
+        },
+        "actions": {
+          "create": {
+            "list-name": "Create",
+            "display-text": "create",
+            "description": "All settings in the plugin properties."
+          },
+          "destroy": {
+            "list-name": "Destroy",
+            "display-text": "destroy",
+            "description": "Destroy the media controller:"
+          },
+          "events_case": {
+            "list-name": "action Case",
+            "display-text": "Set action Case to ([b]{0}[/b]).",
+            "description": "Subscribe events to the media controller:",
+            "params": {
+              "action": {
+                "name": "Name :",
+                "desc": "Subscribe events to the media controller:"
+              }
+            }
+          }
+        },
+        "expressions": {
+          "response": {
+            "translated-name": "Response",
+            "description": "this event response"
+          }
+        }
+      }
+    }
+  }
+}

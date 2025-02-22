@@ -1,0 +1,118 @@
+{
+  "custom": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "create",
+        "scriptName": "Create",
+        "highlight": false
+      },
+      {
+        "id": "destroy",
+        "scriptName": "Destroy",
+        "highlight": false
+      },
+      {
+        "id": "events_case",
+        "scriptName": "Events_Case",
+        "highlight": false,
+        "params": [
+          {
+            "id": "action",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "expressions": []
+  },
+  "subscribe": {
+    "conditions": [
+      {
+        "id": "next",
+        "scriptName": "Next",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "previous",
+        "scriptName": "Previous",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "pause",
+        "scriptName": "Pause",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "play",
+        "scriptName": "Play",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "destroy",
+        "scriptName": "Destroy",
+        "highlight": false,
+        "isTrigger": true
+      }
+    ],
+    "actions": [],
+    "expressions": []
+  },
+  "ios only": {
+    "conditions": [
+      {
+        "id": "ipause",
+        "scriptName": "Ipause",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "seek_to",
+        "scriptName": "Seek_To",
+        "highlight": false,
+        "isTrigger": true
+      }
+    ],
+    "actions": [],
+    "expressions": []
+  },
+  "android only": {
+    "conditions": [
+      {
+        "id": "media_button",
+        "scriptName": "Media_Button",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "headse_unplugged",
+        "scriptName": "Headse_Unplugged",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "headset_plugged",
+        "scriptName": "Headset_Plugged",
+        "highlight": false,
+        "isTrigger": true
+      }
+    ],
+    "actions": [],
+    "expressions": []
+  },
+  "response": {
+    "conditions": [],
+    "actions": [],
+    "expressions": [
+      {
+        "id": "response",
+        "expressionName": "Response",
+        "returnType": "any"
+      }
+    ]
+  }
+}
